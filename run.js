@@ -30,6 +30,7 @@ assert(typeof lodash.debounce === 'function',  ' debounce is not a function');
 assert(typeof lodash.intersection === 'function',  ' intersection is not a function');
 assert(typeof lodash.remove === 'function',  ' remove is not a function');
 assert(typeof lodash.clone === 'function',  'clone is not a function');
+assert(typeof lodash.forEach === 'function',  'forEach is not a function');
 
 console.log('assertions passed');
 console.log('on a fast machine (MBP SSD etc), the time bellow should be less then 10ms');

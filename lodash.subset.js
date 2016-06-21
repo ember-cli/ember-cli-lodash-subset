@@ -23,6 +23,7 @@ import values from 'lodash-es/values';
 import debounce from 'lodash-es/debounce';
 import remove from 'lodash-es/remove';
 import clone from 'lodash-es/clone';
+import forEach from 'lodash-es/forEach';
 
 module.exports = {
   assign: assign,
@@ -50,6 +51,7 @@ module.exports = {
   debounce: debounce,
   intersection: intersection,
   remove: remove,
-  clone: clone
+  clone: clone,
+  forEach: forEach,
 };
 
