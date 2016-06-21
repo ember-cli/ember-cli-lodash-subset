@@ -22,6 +22,7 @@ import some from 'lodash-es/some';
 import values from 'lodash-es/values';
 import debounce from 'lodash-es/debounce';
 import remove from 'lodash-es/remove';
+import clone from 'lodash-es/clone';
 
 module.exports = {
   assign: assign,
@@ -49,5 +50,6 @@ module.exports = {
   debounce: debounce,
   intersection: intersection,
   remove: remove,
+  clone: clone
 };
 
