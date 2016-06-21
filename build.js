@@ -6,9 +6,9 @@ export default {
   dest: 'index.js',
   format: 'iife',
   plugins: [
-    uglify(),
     node({
       jsnext: true
-    })
+    }),
+    uglify()
   ]
 };
