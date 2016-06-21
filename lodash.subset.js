@@ -14,13 +14,14 @@ import defaultsDeep from 'lodash-es/defaultsDeep';
 import omitBy from 'lodash-es/omitBy';
 import isNull from 'lodash-es/isNull';
 import compact from 'lodash-es/compact';
-import intersect from 'lodash-es/intersection';
+import intersection from 'lodash-es/intersection';
 import zipObject from 'lodash-es/zipObject';
 import includes from 'lodash-es/includes';
 import cloneDeep from 'lodash-es/cloneDeep';
 import some from 'lodash-es/some';
 import values from 'lodash-es/values';
 import debounce from 'lodash-es/debounce';
+import remove from 'lodash-es/remove';
 
 module.exports = {
   assign: assign,
@@ -45,6 +46,8 @@ module.exports = {
   includes: includes,
   cloneDeep: cloneDeep,
   values: values,
-  debounce: debounce
+  debounce: debounce,
+  intersection: intersection,
+  remove: remove,
 };
 
