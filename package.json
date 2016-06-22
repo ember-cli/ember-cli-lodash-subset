@@ -8,6 +8,7 @@
     "test": "node run",
     "prepublish": "npm run build && npm run test"
   },
+  "repository": "gitlab:ember-cli/ember-cli-lodash-subset",
   "author": "",
   "license": "ISC",
   "devDependencies": {
