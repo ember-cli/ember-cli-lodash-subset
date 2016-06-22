@@ -1,4 +1,5 @@
 # ember-cli-lodash-subset
+[![Build Status](https://travis-ci.org/ember-cli/ember-cli-lodash-subset.svg?branch=master)](https://travis-ci.org/ember-cli/ember-cli-lodash-subset)
 
 Use rollup + lodash-es to create an optimized lodash build, something that improves ember-cli startup time by 20% - 30%
 
