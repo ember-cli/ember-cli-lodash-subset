@@ -14,7 +14,7 @@
   "devDependencies": {
     "lodash-es": "4.13.1",
     "rollup": "^0.34.1",
-    "rollup-plugin-node-resolve": "^1.7.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-uglify": "^1.0.0"
   }
 }
