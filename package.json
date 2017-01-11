@@ -1,11 +1,18 @@
 {
   "name": "ember-cli-lodash-subset",
   "version": "1.0.11",
-  "description": "",
+  "description": "Custom lodash build used by ember-cli",
+  "homepage": "https://github.com/ember-cli/ember-cli-lodash-subset#readme",
+  "bugs": {
+    "url": "https://github.com/ember-cli/ember-cli-lodash-subset/issues"
+  },
   "license": "ISC",
-  "author": "",
+  "author": "Stefan Penner",
   "main": "index.js",
-  "repository": "gitlab:ember-cli/ember-cli-lodash-subset",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ember-cli/ember-cli-lodash-subset.git"
+  },
   "scripts": {
     "build": "rollup -c build.js > index.js",
     "prepublish": "npm run build && npm run test",
