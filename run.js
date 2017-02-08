@@ -18,6 +18,7 @@ assert(typeof lodash.forEach === 'function', 'forEach is not a function');
 assert(typeof lodash.forOwn === 'function', 'forOwn is not a function');
 assert(typeof lodash.includes === 'function', ' includes is not a function');
 assert(typeof lodash.intersection === 'function', ' intersection is not a function');
+assert(typeof lodash.isEqual === 'function', ' isEqual is not a function');
 assert(typeof lodash.isNull === 'function', ' isNull is not a function');
 assert(typeof lodash.keys === 'function', ' keys is not a function');
 assert(typeof lodash.map === 'function', ' map is not a function');

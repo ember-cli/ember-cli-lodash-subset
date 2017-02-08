@@ -11,6 +11,7 @@ import forEach from 'lodash-es/forEach';
 import forOwn from 'lodash-es/forOwn';
 import includes from 'lodash-es/includes';
 import intersection from 'lodash-es/intersection';
+import isEqual from 'lodash-es/isEqual';
 import isNull from 'lodash-es/isNull';
 import keys from 'lodash-es/keys';
 import map from 'lodash-es/map';
@@ -40,6 +41,7 @@ module.exports = {
   forOwn: forOwn,
   includes: includes,
   intersection: intersection,
+  isEqual: isEqual,
   isNull: isNull,
   keys: keys,
   map: map,
