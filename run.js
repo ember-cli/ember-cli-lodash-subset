@@ -1,8 +1,8 @@
 var assert = require('assert');
-console.time('lodash');
 
-var start = Date.now();
+console.time('lodash');
 var lodash = require('./index');
+console.timeEnd('lodash');
 
 assert(typeof lodash.any === 'function', ' some is not a function');
 assert(typeof lodash.assign === 'function', 'assign is not a function');
@@ -33,5 +33,4 @@ assert(typeof lodash.values === 'function', ' values is not a function');
 assert(typeof lodash.zipObject === 'function', ' zipObject is not a function');
 
 console.log('assertions passed');
-console.log('on a fast machine (MBP SSD etc), the time below should be less than 10ms');
-console.timeEnd('lodash');
+console.log('on a fast machine (MBP SSD etc), the time above should be less than 10ms');
