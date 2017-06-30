@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-lodash-subset",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Custom lodash build used by ember-cli",
   "homepage": "https://github.com/ember-cli/ember-cli-lodash-subset#readme",
   "bugs": {
